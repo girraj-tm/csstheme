@@ -6,4 +6,12 @@
 }
 .progress-text-size{
   font-size: 0.80rem;
+  right: 0;
+  top: 0;
+  padding-right: 1.725rem;
+  line-height: 51px;
+  font-weight: 900;
+  color: $breadcrumb-active-color;
+  font-size: $breadcrumb-title-font-size;
+  margin: 0px;
 }

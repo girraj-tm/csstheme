@@ -58,32 +58,7 @@
                             { field: "TotalSales", aggregate: "sum" }
                         ]
                     },
-                    schema: {
-                        model: {
-                            id: "ProductID",
-                            fields: {
-                                ProductID: { editable: false, nullable: true },
-                                Discontinued: { type: "boolean", editable: false },
-                                TotalSales: { type: "number", editable: false },
-                                TargetSales: { type: "number", editable: false },
-                                LastSupply: { type: "date" },
-                                UnitPrice: { type: "number" },
-                                UnitsInStock: { type: "number" },
-                                Category: {
-                                    defaultValue: {
-                                        CategoryID: 8,
-                                        CategoryName: "Seafood"
-                                    }
-                                },
-                                Country: {
-                                    defaultValue: {
-                                        CountryNameLong: "Bulgaria",
-                                        CountryNameShort: "bg"
-                                    }
-                                }
-                            }
-                        }
-                    }
+                   
                 });
 
             $("#grid").kendoGrid({

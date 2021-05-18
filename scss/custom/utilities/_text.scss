@@ -46,11 +46,17 @@
   color: $gray-900 !important;
 }
 
-.icon-circle {
-  height: 2.5rem;
-  width: 2.5rem;
+.icon-circle { height: 2.5rem; width: 2.5rem;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: $white;
+  background: fade-out($gray-800, .5);
 }
