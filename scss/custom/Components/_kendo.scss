@@ -1,0 +1,270 @@
+
+    .k-grid {
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        color: #161537;
+        line-height: 1.4;
+    }
+    .font-15 {
+        font-size: 15px !important;
+    }
+    .thumb {
+        position: relative;
+        z-index: 1;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+    .k-grid .owl-item img {
+        display: block;
+        width: 100%;
+    }
+    .font-18 {
+        font-size: 18px !important;
+    }
+    .k-grid {
+        font-size: 12px !important;
+    }
+
+    
+
+
+    .k-grid {
+        border-width: 1px;
+        border-style: solid;
+        box-sizing: border-box;
+        outline: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        line-height: 1.5;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: relative;
+        -webkit-touch-callout: none;
+        -webkit-tap-highlight-color: transparent
+    }
+    
+    .k-grid.k-grid-display-block {
+        display: block
+    }
+    
+    .k-grid .k-grid-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        overflow: hidden;
+        position: relative
+    }
+    
+    .k-grid .k-grid-aria-root {
+        border-color: inherit;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        overflow: hidden
+    }
+    
+    .k-grid table {
+        margin: 0;
+        width: 100%;
+        max-width: none;
+        border-width: 0;
+        border-color: inherit;
+        border-collapse: separate;
+        border-spacing: 0;
+        empty-cells: show;
+        outline: 0
+    }
+    
+    .k-grid tbody,.k-grid tfoot,.k-grid thead {
+        text-align: left;
+        border-color: inherit
+    }
+    
+    .k-grid tr {
+        border-color: inherit
+    }
+    
+    .k-grid td,.k-grid th {
+        padding: .75rem .75rem;
+        border-style: solid;
+        border-color: inherit;
+        outline: 0;
+        font-weight: inherit;
+        text-align: inherit;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+    
+    .k-grid td:first-child,.k-grid th:first-child {
+        border-left-width: 0
+    }
+    
+    .k-grid td:focus,.k-grid th:focus {
+        outline: 0
+    }
+    
+    .k-grid td .k-placeholder-line,.k-grid th .k-placeholder-line {
+        width: 80%
+    }
+    
+    .k-grid th {
+        padding: .75rem .75rem;
+        border-width: 0 0 1px 1px;
+        white-space: nowrap
+    }
+    
+    .k-grid td {
+        border-width: 0 0 0 1px;
+        vertical-align: middle
+    }
+    
+    .k-grid a {
+        color: inherit;
+        text-decoration: none
+    }
+    
+    .k-grid a:hover {
+        text-decoration: none
+    }
+    
+    .k-grid .k-grid-header-wrap,.k-grid table {
+        box-sizing: content-box
+    }
+    
+    .k-grid .k-group-col,.k-grid .k-hierarchy-col {
+        padding: 0;
+        width: 32px
+    }
+    
+    .k-grid .k-grouping-row p {
+        margin: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-line-pack: center;
+        align-content: center
+    }
+    
+    .k-grid .k-grouping-row td {
+        overflow: visible
+    }
+    
+    .k-grid .k-grouping-row+tr td {
+        border-top-width: 1px
+    }
+    
+    .k-grid .k-grouping-row .k-group-cell,.k-grid .k-grouping-row+tr .k-group-cell {
+        border-top-width: 0;
+        text-overflow: clip
+    }
+    
+    .k-grid .k-grouping-row .k-icon {
+        margin-left: calc(8px - .75rem);
+        margin-right: 8px;
+        text-decoration: none
+    }
+    
+    .k-grid .k-group-footer td {
+        border-style: solid;
+        border-width: 1px 0
+    }
+    
+    .k-grid .k-group-footer .k-group-cell+td {
+        border-left-width: 1px
+    }
+    
+    .k-grid .k-drag-cell,.k-grid .k-hierarchy-cell {
+        text-align: center;
+        padding: 0;
+        overflow: visible
+    }
+    
+    .k-grid .k-drag-cell>.k-icon,.k-grid .k-hierarchy-cell>.k-icon {
+        padding: .75rem 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        outline: 0
+    }
+    
+    .k-grid .k-hierarchy-cell+.k-grid-content-sticky {
+        border-left-width: 1px
+    }
+    
+    .k-grid .k-detail-row .k-detail-cell {
+        border-left-width: 0
+    }
+    
+    .k-grid[dir=rtl] tbody,.k-grid[dir=rtl] tfoot,.k-grid[dir=rtl] thead,.k-rtl .k-grid tbody,.k-rtl .k-grid tfoot,.k-rtl .k-grid thead {
+        text-align: right
+    }
+    
+    .k-grid[dir=rtl] th,.k-rtl .k-grid th {
+        white-space: nowrap
+    }
+    
+    .k-grid[dir=rtl] .k-grid-header-wrap,.k-rtl .k-grid .k-grid-header-wrap {
+        border-width: 0 0 0 1px
+    }
+    
+    .k-calendar-header .k-grid[dir=rtl] .k-group-indicator .k-button,.k-calendar-header .k-rtl .k-grid .k-group-indicator .k-button,.k-grid[dir=rtl] .k-group-indicator .k-button-flat,.k-grid[dir=rtl] .k-group-indicator .k-button.k-bare,.k-grid[dir=rtl] .k-group-indicator .k-button.k-flat,.k-grid[dir=rtl] .k-group-indicator .k-calendar-header .k-button,.k-grid[dir=rtl] .k-group-indicator .k-calendar.k-calendar-range.k-calendar-infinite:not(.k-calendar-minimal)>.k-button,.k-rtl .k-grid .k-group-indicator .k-button-flat,.k-rtl .k-grid .k-group-indicator .k-button.k-bare,.k-rtl .k-grid .k-group-indicator .k-button.k-flat,.k-rtl .k-grid .k-group-indicator .k-calendar-header .k-button,.k-rtl .k-grid .k-group-indicator .k-calendar.k-calendar-range.k-calendar-infinite:not(.k-calendar-minimal)>.k-button {
+        margin-left: -.25rem;
+        margin-right: 1rem
+    }
+    
+    .k-grid[dir=rtl] .k-group-indicator .k-link .k-icon,.k-rtl .k-grid .k-group-indicator .k-link .k-icon {
+        margin-left: .5rem;
+        margin-right: -.25rem
+    }
+    
+    .k-grid[dir=rtl] .k-group-indicator,.k-rtl .k-grid .k-group-indicator {
+        margin-right: 0;
+        margin-left: .375rem
+    }
+    
+    .k-grid[dir=rtl] .k-group-indicator+.k-group-indicator,.k-rtl .k-grid .k-group-indicator+.k-group-indicator {
+        margin-right: .375rem
+    }
+    
+    .k-grid[dir=rtl] .k-grid-content-locked,.k-grid[dir=rtl] .k-grid-footer-locked,.k-grid[dir=rtl] .k-grid-header-locked,.k-rtl .k-grid .k-grid-content-locked,.k-rtl .k-grid .k-grid-footer-locked,.k-rtl .k-grid .k-grid-header-locked {
+        border-left-width: 1px;
+        border-right-width: 0
+    }
+    
+    .k-grid[dir=rtl] .k-grid-content-sticky,.k-grid[dir=rtl] .k-grid-footer-sticky,.k-grid[dir=rtl] .k-grid-header-sticky,.k-rtl .k-grid .k-grid-content-sticky,.k-rtl .k-grid .k-grid-footer-sticky,.k-rtl .k-grid .k-grid-header-sticky {
+        border-left-width: 1px
+    }
+    
+    .k-grid[dir=rtl] .k-grid-content-sticky:not([style*="display: none"])+td,.k-grid[dir=rtl] .k-grid-content-sticky:not([style*="display: none"])+th,.k-grid[dir=rtl] .k-grid-header-sticky:not([style*="display: none"])+td,.k-grid[dir=rtl] .k-grid-header-sticky:not([style*="display: none"])+th,.k-rtl .k-grid .k-grid-content-sticky:not([style*="display: none"])+td,.k-rtl .k-grid .k-grid-content-sticky:not([style*="display: none"])+th,.k-rtl .k-grid .k-grid-header-sticky:not([style*="display: none"])+td,.k-rtl .k-grid .k-grid-header-sticky:not([style*="display: none"])+th {
+        border-left-width: 1px;
+        border-right-width: 0
+    }
+    
+    .k-grid[dir=rtl] .k-grid-header-sticky.k-header:first-child,.k-rtl .k-grid .k-grid-header-sticky.k-header:first-child {
+        border-left-width: 1px
+    }
+    
+    .k-grid[dir=rtl] .k-grid-row-sticky,.k-rtl .k-grid .k-grid-row-sticky {
+        border-bottom-width: 1px;
+        border-top-width: 1px
+    }
+    
+    .k-grid[dir=rtl] th,.k-rtl .k-grid th {
+        border-width: 0 1px 1px 0
+    }
+    
+    .k-grid[dir=rtl] th:first-child,.k-rtl .k-grid th:first-child {
+        border-right-width: 0
+    }
